@@ -1,0 +1,8 @@
+package com.github.ionelnitu.EmployeeApplication.entities.repository;
+
+import com.github.ionelnitu.EmployeeApplication.entities.Employee;
+import org.springframework.data.jpa.repository.JpaRepository;
+
+
+public interface EmployeeRepository extends JpaRepository<Employee, Long> {
+}
